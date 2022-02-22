@@ -1,15 +1,9 @@
-package com.hezd.androidarchitecture.mvc
+package com.hezd.androidarchitecture
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.hezd.androidarchitecture.R
+import android.os.Bundle
 
-/**
- *
- *@author hezd
- *Create on 2022/2/22 10:31
- */
-class MVCActivity :AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
